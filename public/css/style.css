@@ -1,0 +1,731 @@
+@import url(./partials/header.css);
+@import url(./partials/footer.css);
+@import url(./blog.css);
+@import url(./testimonial.css);
+@import url(./error.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Righteous&family=Roboto:wght@300;400;500;900&family=Rubik:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/*####################################################*/
+/*Container and Media Queary Section*/
+/*####################################################*/
+.container{
+    max-width: 1276px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+
+
+/*####################################################*/
+/*Hero Section start*/
+/*####################################################*/
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.hero video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #7c2657, #8e3579, #893a8c, #7d41a1, #674bb6, #565ec9, #3d70d9, #0081e7, #009bef, #00b1e8, #00c3d8, #06d3c5);
+    mix-blend-mode: overlay;
+}
+
+.hero .hero-slide{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 111;
+}
+
+.hero .hero-slide h3{
+    color: #fbf416;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Righteous', cursive;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.hero .hero-slide a{
+    padding: 1rem 2rem;
+    border: 2px #674bb6 solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.hero .hero-slide a:hover{
+    color: #674bb6;
+    background: #fff;
+    border: 2px transparent solid;
+}
+
+/*####################################################*/
+/*Hero Section end*/
+/*####################################################*/
+
+/**==================================================================*/
+
+/*####################################################*/
+/*forex-info Section start*/
+/*####################################################*/
+
+.forex-info{
+    background: #f1f1f5;
+}
+
+.forex-info .wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.forex-info .wraper .info-block-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 3rem 2rem;
+    margin-bottom: 1rem;
+    border: 1px #918e8e2c solid ;
+    border-radius: 5px;
+}
+
+.forex-info .wraper .info-block-wraper .stat-img img{
+    
+    width: 100%;
+    height: 60px;
+    padding-right: 1rem;
+}
+
+.forex-info .wraper .info-block-wraper .info-block{
+    flex: 9;
+}
+
+.forex-info .wraper .info-block-wraper .info-block h2{
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #111111be;
+}
+
+.forex-info .wraper .info-block-wraper .info-block p{
+    width: 100%;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: #8585bd;
+}
+
+/*####################################################*/
+/*forex-info Section end*/
+/*####################################################*/
+
+/**==================================================================*/
+
+/*####################################################*/
+/*counter Section start*/
+/*####################################################*/
+
+.counter{
+    background: #f1f1f5;
+    padding: 4rem;
+}
+.counter .counter-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background: #ffffff;
+    border: 1px #918e8e2c solid ;
+    border-radius: 5px;
+}
+
+.counter .counter-wraper .counter-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.counter .counter-wraper .counter-info h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #4c4aec;
+}
+
+.counter .counter-wraper .counter-info h3{
+    font-size: 17px;
+    font-weight: 400;
+    color: #4c4aec;
+}
+
+/*####################################################*/
+/*counter Section end*/
+/*####################################################*/
+
+/**==================================================================*/
+
+/*####################################################*/
+/* Features section start*/
+/*####################################################*/
+
+.features{
+    background: #f1f1f5;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.features-wraper{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+
+.left-side, .right-side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-side h2{
+    font-size: 36px;
+    color: #4c4aec;
+    margin-bottom: 2rem;
+}
+
+.left-side .bar{
+    background: #1df128;
+    width: 10%;
+    height: 4px;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+}
+.left-side img{
+    width: 100%;
+}
+
+.features-info-wraper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-bottom: 0.5px #7267673b solid;
+}
+
+.features-info-wraper:last-child{
+    border: none;
+    margin-bottom: 0rem;
+}
+
+.features-info-wraper img{
+    height: 60px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.features-info-wraper h3{
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #111111be;
+    margin-bottom: 1rem;
+}
+
+.features-info-wraper p{
+    width: 100%;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #8585bd;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features-info-wraper p.last{
+    margin-bottom: 0;
+}
+
+/*####################################################*/
+/*Features Section end*/
+/*####################################################*/
+
+/**==================================================================*/
+
+/*####################################################*/
+/* Membership section start*/
+/*####################################################*/
+
+.membership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    background-blend-mode: overlay;
+    background-image: url(https://forexkingsignals.com/wp-content/uploads/2022/01/coding-background-texture.jpg),linear-gradient(180deg,#6057cb 0%,#9271f6 100%) !important;
+    box-shadow: inset 0px -200px 0px 0px #f7f5f5;
+}
+
+.membership .plan-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.membership .plan-info h1{
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.membership .monthly-plan-wraper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.membership .monthly-plan-wraper .monthly-plan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 2rem;
+    border: 0.5px solid #aca9a93d;
+    border-radius: 5px;
+}
+
+.membership .monthly-plan-wraper .monthly-plan h2{
+    font-size: 22px;
+    color: #2e2545;
+    margin-bottom: 2rem;
+}
+
+.membership .monthly-plan-wraper .monthly-plan h3{
+    display: flex;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.membership .monthly-plan-wraper .monthly-plan h3 span{
+    
+    font-size: 26px;
+    margin-top: 0.8rem;
+}
+
+.membership .monthly-plan-wraper .monthly-plan h3 .sub-track{
+    margin-top: 3.2rem;
+}
+
+.membership .monthly-plan-wraper .monthly-plan p{
+    color: #8585bd;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.membership .monthly-plan-wraper .monthly-plan a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+
+.membership .monthly-plan-wraper .monthly-plan a:hover{
+    letter-spacing: 1.5px;
+}
+
+.bending-color-1{
+    color: #4c4aec;
+}
+.bending-bg-color-1{
+    background: #4c4aec;
+}
+.bending-color-2{
+    color: #09e1c0;
+}
+.bending-bg-color-2{
+    background: #09e1c0;
+}
+.bending-color-3{
+    color:  #9271f6;
+}
+.bending-bg-color-3{
+    background-color: #9271f6;
+}
+
+/*####################################################*/
+/*Membership  Section end*/
+/*####################################################*/
+
+/**==================================================================*/
+
+/*####################################################*/
+/*Mobile Nav section start*/
+/*####################################################*/
+
+.site-main-wraper{
+    position: relative;
+}
+
+.hamburger{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 111;
+    font-size: 36px;
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10001;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+}
+
+.open{
+    transform: translateX(0);
+}
+
+.times{
+    color: #ffffff;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.times span{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.mobile-nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: -8rem;
+}
+.mobile-nav ul li {
+    margin-bottom: 2rem;
+}
+.mobile-nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+@media (max-width:1024px){
+    header .logo{
+        font-size: 22px;
+    }
+    header .logo span{
+        font-size: 36px;
+    }
+
+    header .menu-bar{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .features-wraper{
+        flex-direction: column;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h3 {
+        font-size: 50px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h3 span{
+        font-size: 14px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan p{
+        line-height: 22px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .membership .monthly-plan-wraper .monthly-plan a{
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan{
+        padding: 1rem;
+    }
+    .hamburger{
+        right: 100px;
+    }
+    .image-wraper{
+        grid-template-columns: auto auto auto auto;
+        grid-row-gap: 45;
+        grid-column-gap: 15px;
+    }
+    .container .popup-img img{
+        width: 40%;
+    }
+}
+
+@media (max-width:768px){
+    header .logo{
+        padding: 0.4rem 0rem;
+    }
+    .hero .hero-slide h3{
+        letter-spacing: 0px;
+    }
+    .counter .counter-wraper .counter-info h1{
+        font-size: 44px;
+    }
+    .counter .counter-wraper .counter-info h3{
+        font-size: 12px;
+    }
+    .left-side h2{
+        font-size: 26px;
+    }
+    .left-side img{
+        width: 60%;
+    }
+    .membership{
+        padding-top: 40px;
+    }
+    .membership .plan-info h1{
+        font-size: 30px;
+    }
+    .membership .monthly-plan-wraper{
+        flex-direction: column;
+    }
+    .membership .monthly-plan-wraper .monthly-plan p{
+        line-height: 25px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h2{
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+    .membership .monthly-plan-wraper .monthly-plan a{
+        padding: 1rem 2rem;
+        font-size: 22px;
+    }
+    .footer-wraper{
+        padding-top: 10rem;
+    }
+    .footer-wraper .footer-card{
+        flex-direction: column;
+    }
+    .footer-wraper .footer-card h1{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footer-wraper .footer-card a{
+        font-size: 18px;
+    }
+    .footer-wraper .footer-menu{
+        flex-direction: column;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-1{
+        align-items: center;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-1 p{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-1 h4{
+        font-size: 22px;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-1 h1{
+        font-size: 34px;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-2 h2, .footer-wraper .footer-menu .footer-menu-iteam-3 h2{
+        font-size: 30px;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-2 ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .image-wraper{
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 45;
+        grid-column-gap: 15px;
+    }
+    .container .popup-img img{
+        width: 40%;
+    }
+}
+
+@media (max-width:425px){
+    .hamburger{
+        right: 34px;
+    }
+    .hero .hero-slide h3{
+        text-align: left;
+        font-size: 58px;
+        margin-top: -8rem;
+        margin-bottom: 3rem;
+    }
+    .hero .hero-slide a{
+        padding: 1rem 4rem;
+        font-size: 30px;
+    }
+    .counter{
+        padding: 1rem;
+    }
+    .counter .counter-wraper{
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .counter .counter-wraper .counter-info h1{
+        font-size: 58px;
+    }
+    .counter .counter-wraper .counter-info h3{
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+    .left-side h2{
+        font-size: 36px;
+    }
+    .left-side img{
+        width: 90%;
+    }
+    .features-info-wraper img{
+        height: 60px;
+    }
+    .features-info-wraper h3{
+        font-size: 24px;
+    }
+    .features-info-wraper p{
+        font-size: 18px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h3{
+        font-size: 80px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h3 .sub-track{
+        margin-top: 4.2rem;
+    }
+    .membership .monthly-plan-wraper .monthly-plan h3 span{
+        font-size: 20px;
+    }
+    .membership .monthly-plan-wraper .monthly-plan p{
+        line-height: 28px;
+        margin-bottom: 2rem;
+    }
+    .footer-wraper .footer-card h1{
+        padding: 0rem;
+    }
+    .footer-wraper .footer-menu .footer-menu-iteam-1 p{
+        color: #c3bfbf;
+    }
+
+    .image-wraper{
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+        grid-column-gap: 15px;
+    }
+    .container .popup-img span{
+        top: 35px;
+    }
+    .container .popup-img img{
+        top: 45%;
+        width: 70%;
+        transform: translate(-50%,-45%);
+    }
+}

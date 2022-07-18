@@ -1,0 +1,166 @@
+footer{
+    background-image: url(https://forexkingsignals.com/wp-content/uploads/2022/01/wave-divider.png),linear-gradient(278deg,#0c1140 0%,#012780 100%) !important;
+}
+
+.footer-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20rem;
+    margin-bottom: 6rem;
+}
+
+.footer-wraper .footer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 7rem 4rem;
+    margin-bottom: 6rem;
+    background-image: linear-gradient(278deg,#07125e 0%,#5c3dbc 100%);
+    border-radius: 5px;
+
+}
+
+.footer-wraper .footer-card h1{
+    width: 50%;
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+.footer-wraper .footer-card a{
+    text-decoration: none;
+    padding: 1rem 9rem;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #09e1c0;
+    border: 1.5px solid transparent;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all .3s ease;
+}
+
+.footer-wraper .footer-card a:hover{
+    background: transparent;
+    color: #09e1c0;
+    border: 1.5px solid #09e1c0;
+}
+
+.footer-wraper .footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-1,
+.footer-wraper .footer-menu .footer-menu-iteam-2,
+.footer-wraper .footer-menu .footer-menu-iteam-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-1 h1{
+    text-align: left;
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-1 h4{
+    font-size: 14px;
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-1 p{
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    word-spacing: 2px;
+    width: 70%;
+    margin-top: 1rem;
+
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-2 h2,
+.footer-wraper .footer-menu .footer-menu-iteam-3 h2
+{
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-2 ul{
+    list-style-type: none;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-2 ul li{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-2 ul li a{
+    font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #d8d2d2af;
+    transition: all .3s ease;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-2 ul li a:hover{
+    color: #ffffff;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-3 .social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-wraper .footer-menu .footer-menu-iteam-3 .social-icon img{
+    width: 40px;
+    background: #fff;
+    border: 1px solid rgb(112, 110, 110);
+    border-radius: 50%;
+}
+
+.copyright{
+    background-image: linear-gradient(278deg,#07125e 0%,#5c3dbc 100%);
+    padding: 1rem 0;
+}
+
+.copyright h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+    width: 100%;
+}

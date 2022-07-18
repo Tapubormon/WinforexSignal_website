@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/forex.webp">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Reviews - WinforexSignal</title>
+</head>
+<body>
+    <div class="mobile-nav">
+        <button class="times">
+            <span>&times;</span>
+        </button>
+
+        <ul>
+            <li><a href="/#d24575e9-0266-42b0-8740-bca715dd5cdb">Pricing</a></li>
+            <li><a href="/reviews/view">Testimonials & Reviews</a></li>
+            <li><a href="/#d24575e9-0266-42b0-8740-bca715dd5cdb-0266-42b0-8740">Features</a></li>
+            <li><a href="https://t.me/winforexgoldsignal9" target="_blank">Join US</a></li>
+        </ul>
+    </div>
+
+    {{>header}}
+
+    <section class="review-srcshot">
+        <div class="container">
+            <div class="image-wraper">
+
+                {{#each image}}
+                    <a href="#{{uuid}}" onclick=""><img src={{this.url}} alt="" class="grid-img"></a>
+                {{/each}}  
+            </div>
+
+            <div class="popup-img">
+                <span>&times;</span>
+                <img src="/img/ss/srcshot1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    {{>footer}}
+
+    <script src="/js/index1.js">
+    </script>
+    <script src="/js/index.js">
+    </script>
+</body>
+</html>

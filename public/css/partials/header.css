@@ -1,0 +1,79 @@
+header{
+    width: 100%;
+    display: block;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Righteous', cursive;
+    font-size: 42px;
+    font-weight: 600;
+    color: #4c4aec;
+    padding: 0.4rem 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: #4c4aec;
+}
+
+header .logo span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    font-weight: 300;
+    padding: 0rem 0.5rem;
+
+}
+
+header .menu-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header .menu-bar ul li{
+    padding: 0rem 1rem;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+    
+}
+
+header .menu-bar ul li:last-child > a{
+    background: #fbf300;
+    color: #4c4aec;
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+header .menu-bar ul li:last-child > a:hover{
+    color: #fbf300;
+    background: #4c4aec;
+
+}
+
+header .menu-bar ul li a{
+    text-decoration: none;
+    color: #4c4aec;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+header .menu-bar ul li a:hover{
+    color: #7876fb;
+}
