@@ -741,7 +741,13 @@ body{
         transform: translate(-50%,-45%);
     }
     .mobile-nav ul li a{
-        font-size: 28px;
+        font-size: 25px;
+    }
+    .hero .hero-slide h3{
+        margin-top: 0rem;
+    }
+    .mobile-nav{
+        padding: 1rem;
     }
 }
 
