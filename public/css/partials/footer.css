@@ -33,27 +33,6 @@ footer{
     padding-left: 4rem;
 }
 
-.footer-wraper .footer-card a{
-    text-decoration: none;
-    padding: 1rem 9rem;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    background: #09e1c0;
-    border: 1.5px solid transparent;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    transition: all .3s ease;
-}
-
-.footer-wraper .footer-card a:hover{
-    background: transparent;
-    color: #09e1c0;
-    border: 1.5px solid #09e1c0;
-}
-
 .footer-wraper .footer-menu{
     display: flex;
     flex-wrap: wrap;

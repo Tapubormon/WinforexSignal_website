@@ -71,6 +71,27 @@ body{
     z-index: 0;
 }
 
+.hero .whatsapp-contact{
+    position: fixed;
+    bottom: 8%;
+    right: 10px;
+    width: 60px;
+    height: 50px;
+    opacity: 0.9;
+    object-fit: cover;
+    z-index: 200;
+    border-radius: 50px;
+}
+
+.hero img{
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+
+.hero img:hover{
+    transform: scale(1.05);
+}
+
 .hero .overlay{
     position: absolute;
     top: 0;
@@ -623,9 +644,6 @@ body{
         width: 100%;
         margin-bottom: 2rem;
     }
-    .footer-wraper .footer-card a{
-        font-size: 18px;
-    }
     .footer-wraper .footer-menu{
         flex-direction: column;
     }
@@ -752,9 +770,6 @@ body{
 }
 
 @media (max-width:380px){
-    .footer-wraper .footer-card a{
-        padding: 0.5rem 7rem;
-    }
     .hero .hero-slide h3{
         font-size: 48px;
         margin-top: 0;
