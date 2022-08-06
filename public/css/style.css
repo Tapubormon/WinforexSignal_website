@@ -582,6 +582,10 @@ body{
     .container .popup-img img{
         width: 40%;
     }
+
+    .footer-wraper .footer-card .broker-logo{
+        flex-direction: column;
+    }
 }
 
 @media (max-width:768px){

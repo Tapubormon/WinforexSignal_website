@@ -23,6 +23,19 @@ footer{
 
 }
 
+.footer-wraper .footer-card .broker-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-wraper .footer-card img{
+    width: 250px;
+    height: 140px;
+    padding: 0.5rem;
+}
+
 .footer-wraper .footer-card h1{
     width: 50%;
     font-family: "Rubik",Helvetica,Arial,Lucida,sans-serif;
